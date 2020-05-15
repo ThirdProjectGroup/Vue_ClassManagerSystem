@@ -1,7 +1,8 @@
 <!--  -->
 <template>
 <div class='header'>
-    this is Managerment header
+    this is Managerment header<p/>
+    快点来人开个头把
 </div>
 </template>
 
@@ -50,5 +51,6 @@ activated() {}, //如果页面有keep-alive缓存功能，这个函数会触发
 </script>
 <style lang="stylus" scoped>
     .header
-        fontsize: 100px
+        fontsize: 200px;
+        text-align: center;
 </style>
